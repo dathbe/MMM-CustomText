@@ -1,0 +1,12 @@
+.MMM-CustomText {
+	margin: 0;
+}
+
+.MMM-CustomText .CustomTextDiv {
+	margin-bottom: var(--gap-modules);
+}
+
+.region.bottom .MMM-CustomText .CustomTextDiv {
+	margin-top: var(--gap-modules);
+	margin-bottom: 0;
+}
