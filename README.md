@@ -1,6 +1,6 @@
-# Module: MMM-ownMessage
+# Module: MMM-CustomText
 
-`MMM-ownMessage` is a module for [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror). It posts any message you want to your MagicMirror.  Multiple instances are supported. Message can be updated via notification.
+`MMM-CustomText` is a module for [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror). It posts any message you want to your MagicMirror.  Multiple instances are supported. Message can be updated via notification.
 
 ![Example Screenshot](screenshot.png)
 
@@ -12,7 +12,7 @@ Suggestions are welcome.
 
 ```bash
 cd ~/MagicMirror/modules
-git clone https://github.com/dathbe/MMM-ownMessage
+git clone https://github.com/dathbe/MMM-CustomText
 ```
 
 No dependencies need to be installed, **but** you likely want [MMM-Remote-Control](https://github.com/Jopyth/MMM-Remote-Control) installed to allow posting of messages via API.
@@ -20,7 +20,7 @@ No dependencies need to be installed, **but** you likely want [MMM-Remote-Contro
 ## Updating
 
 ```sh
-cd ~/MagicMirror/modules/MMM-ownMessage
+cd ~/MagicMirror/modules/MMM-CustomText
 git pull
 ```
 
@@ -32,7 +32,7 @@ To use this module, add it to the modules array in your `~/MagicMirror/config/co
 
 ````js
 {
-	module: 'MMM-ownMessage',
+	module: 'MMM-CustomText',
 	position: 'top_bar',
 	config: {
 		initialMessage: "I posted my first message!",
@@ -54,7 +54,7 @@ The following properties can be configured:
 
 ### Posting a message via notification
 
-You can update the message displayed by this module using a `OWNMESSAGE_UPDATE` notification.  Pass the `message` and, if you have more than one instance of the module, the `uniqueID` of the instance in a json object:
+You can update the message displayed by this module using a `CUSTOMTEXT_UPDATE` notification.  Pass the `message` and, if you have more than one instance of the module, the `uniqueID` of the instance in a json object:
 
 ```json
 {
@@ -75,7 +75,7 @@ json = {
 	"uniqueID": "myUniqueID",
 	"message": "<div style='background-color:#f19b52'>I posted a notification message!</div>"
 }
-x = requests.post('http://localhost:8080/api/notification/OWNMESSAGE_UPDATE', json=json, headers=header)
+x = requests.post('http://localhost:8080/api/notification/CUSTOMTEXT_UPDATE', json=json, headers=header)
 ```
 
 ### Notes
