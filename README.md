@@ -4,7 +4,7 @@
 
 ![Example Screenshot](screenshot.png)
 
-The main differences between this and [MMM-CustomMessage](https://github.com/jpcaldwell30/MMM-CustomMessage) are that (1) this module allows separately updating multiple instances, (2) this module primarily employs the MagicMirror notification system for updating messages, and (3) this module completely collapses by default when no message is displayed.
+The main differences between this and [MMM-CustomMessage](https://github.com/jpcaldwell30/MMM-CustomMessage) are that (1) this module allows separately updating multiple instances, (2) this module primarily employs the MagicMirror notification system for updating messages, and (3) this module completely collapses to 0 pixels in height by default when no message is displayed.
 
 Suggestions are welcome.
 
