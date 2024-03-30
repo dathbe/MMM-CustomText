@@ -1,0 +1,19 @@
+{
+  "name": "mmm-customtext",
+  "version": "1.0.0",
+  "description": "A MagicMirror² module to show a custom message.",
+  "main": "MMM-CustomText.js",
+  "author": "dathbe",
+  "license": "CC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dathbe/MMM-CustomText.git"
+  },
+  "keywords": [
+    "MagicMirror",
+    "MagicMirror²",
+    "Custom",
+    "Text",
+    "Message"
+  ]
+}
