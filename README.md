@@ -36,7 +36,7 @@ To use this module, add it to the modules array in your `~/MagicMirror/config/co
 	position: 'top_bar',
 	config: {
 		initialMessage: "I posted my first message!",
-		uniqueID: "firstMessage",
+		uniqueID: "myUniqueID",
 		animationSpeed: 1000 * 2,
 	},
 }
