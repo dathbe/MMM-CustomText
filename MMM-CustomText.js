@@ -4,7 +4,7 @@
  * Module: MMM-CustomText
  *
  * By dathbe
- * CC Licensed.
+ * CC-BY-SA Licensed.
  */
 
 Module.register("MMM-CustomText", {
