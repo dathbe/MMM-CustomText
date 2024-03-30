@@ -86,4 +86,4 @@ x = requests.post('http://localhost:8080/api/notification/CUSTOMTEXT_UPDATE', js
 
 ## Changelog
 
-- 2024-XX-XX: Initial release
+- 2024-3-30: Initial release
