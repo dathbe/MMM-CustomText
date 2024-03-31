@@ -82,7 +82,7 @@ x = requests.post('http://localhost:8080/api/notification/CUSTOMTEXT_UPDATE', js
 
 * Both the initial message and any subsequent message posted by notification **will accept standard HTML elements** within the string.  That means you could, for example, style the message using inline CSS or by giving the message a class name and using `~/MagicMirror/css/custom/css`.  You could also insert more complex elements like a table.
 * You can **clear the message** from the display by posting `""` via notification.  If the message is `""`--either via `initialMessage` or a notification posting--it *should* collapse the module so that no unnecessary space is taken up on your display.  If you want the module to take up a fixed height on your display regardless of the length of the message, you should be able to set this in `~/MagicMirror/css/custom.css`.
-* If you only have one instance of this module in your config (or you want to update all instances at the same time) and you have not set an explicit `uniqueID` in your config, you should *not* pass a `uniqueID` in your notification.  If you do pass a `uniqueID`, you must pass `null`.  
+* If you only have one instance of this module in your config (or you want to update all instances at the same time) and you have not set an explicit `uniqueID` in your config, you do *not* need to pass a `uniqueID` in your notification.  The module will update no matter what you pass as `uniqueID`, or if you pass nothing at all.  
 
 ## Changelog
 
