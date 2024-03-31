@@ -1,6 +1,6 @@
 # Module: MMM-CustomText
 
-`MMM-CustomText` is a module for [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror). It posts any message you want to your MagicMirror.  Multiple instances are supported. Message can be updated via notification.
+`MMM-CustomText` is a module for [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror). It posts any message you want to your MagicMirror.  Multiple instances are supported. Message can be updated via notification.  And messages can include HTML elements including CSS formatting.
 
 ![Example Screenshot](screenshot.png)
 
