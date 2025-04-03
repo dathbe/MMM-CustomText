@@ -1,10 +1,7 @@
 {
   "name": "mmm-customtext",
-  "version": "1.0.0",
-  "description": "A MagicMirror² module to show a custom message.",
-  "main": "MMM-CustomText.js",
-  "author": "dathbe",
-  "license": "MIT",
+  "version": "1.0.1",
+  "description": "A MagicMirror² module to display a custom message on your mirror, updatable via notification.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dathbe/MMM-CustomText.git"
@@ -15,5 +12,22 @@
     "Custom",
     "Text",
     "Message"
-  ]
+  ],
+  "author": "dathbe",
+  "contributors": [
+    "dathbe",
+    "KristjanESPERANTO"
+  ],
+  "scripts": {
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "test": "npm run lint"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "@stylistic/eslint-plugin": "^4.2.0",
+    "eslint": "^9.23.0",
+    "globals": "^16.0.0"
+  }
 }
