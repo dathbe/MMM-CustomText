@@ -6,8 +6,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [1.0.1](https://github.com/dathbe/MMM-CustomText/compare/1.0.0...v1.0.1) - 2025-04-XX
 
-- Added ESLint
-- Added changelog
+- Add ESLint
+- Add changelog
+- Add code of conduct
 
 ## [1.0.0](https://github.com/jpcaldwell30/MMM-CustomMessage/compare/master...dathbe:2.0.0) - 2024-03-30
 
