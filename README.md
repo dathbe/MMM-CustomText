@@ -84,6 +84,25 @@ x = requests.post('http://localhost:8080/api/notification/CUSTOMTEXT_UPDATE', js
 * You can **clear the message** from the display by posting `""` via notification.  If the message is `""`--either via `initialMessage` or a notification posting--it *should* collapse the module so that no unnecessary space is taken up on your display.  If you want the module to take up a fixed height on your display regardless of the length of the message, you should be able to set this in `~/MagicMirror/css/custom.css`.
 * **If you only have one instance** of this module in your config (or you want to update all instances at the same time) and you have not set an explicit `uniqueID` in your config, you do *not* need to pass a `uniqueID` in your notification.  The module will update no matter what you pass as `uniqueID`, or if you pass nothing at all.  
 
-## Changelog
+## Contributing
 
-- 2024-3-30: Initial release
+If you find any problems, bugs or have questions, please [open a GitHub issue](https://github.com/dathbe/MMM-CustomText/issues) in this repository.
+
+Pull requests are of course also very welcome 🙂
+
+### Code of Conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+
+### Developer commands
+
+- `npm run lint` - Run linting checks.
+- `npm run lint:fix` - Fix automatically fixable linting errors.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+
+## Thank You
+
+Special thank you to [jpcaldwell30](https://github.com/jpcaldwell30), who created the [MMM-CustomMessage](https://github.com/jpcaldwell30/MMM-Custommessage), which this is based on.  He did most of the work.
