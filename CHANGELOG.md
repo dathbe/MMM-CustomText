@@ -4,7 +4,11 @@ Notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.1](https://github.com/dathbe/MMM-CustomText/compare/1.0.0...v1.0.1) - 2025-04-XX
+## [1.0.2](https://github.com/dathbe/MMM-CustomText/compare/1.0.1...v1.0.2) - 2025-04-09
+
+- Bump dev dependencies versions
+
+## [1.0.1](https://github.com/dathbe/MMM-CustomText/compare/1.0.0...v1.0.1) - 2025-04-02
 
 - Add ESLint
 - Add changelog
