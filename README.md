@@ -15,7 +15,9 @@ cd ~/MagicMirror/modules
 git clone https://github.com/dathbe/MMM-CustomText
 ```
 
-No dependencies need to be installed, **but** you likely want [MMM-Remote-Control](https://github.com/Jopyth/MMM-Remote-Control) installed to allow posting of messages via API.
+Dependencies:
+* None!
+* **But** you likely want [MMM-Remote-Control](https://github.com/Jopyth/MMM-Remote-Control) installed to allow posting of messages via API
 
 ## Updating
 
