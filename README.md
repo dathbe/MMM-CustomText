@@ -39,7 +39,7 @@ To use this module, add it to the modules array in your `~/MagicMirror/config/co
 		uniqueID: "myUniqueID",
 		animationSpeed: 1000 * 2,
 	},
-}
+},
 ````
 
 ### Configuration options
