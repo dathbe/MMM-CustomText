@@ -8,6 +8,9 @@ The main differences between this and [MMM-CustomMessage](https://github.com/jpc
 
 Suggestions are welcome.
 
+[![Platform](https://img.shields.io/badge/platform-MagicMirror²-informational)](https://MagicMirror.builders)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE.md)
+
 ## Installation
 
 ```bash
