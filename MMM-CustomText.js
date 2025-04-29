@@ -22,7 +22,7 @@ Module.register('MMM-CustomText', {
   // Define start sequence.
   start() {
     Log.info('Starting module: ' + this.name)
-    
+
     this.notification = false
     this.messageText = this.config.initialMessage
   },
