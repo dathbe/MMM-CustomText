@@ -21,6 +21,8 @@ Module.register('MMM-CustomText', {
 
   // Define start sequence.
   start() {
+    Log.info('Starting module: ' + this.name)
+
     this.notification = false
     this.messageText = this.config.initialMessage
   },
@@ -40,7 +42,7 @@ Module.register('MMM-CustomText', {
 
   notificationReceived(notification, payload, sender) {
     if (notification === 'CUSTOMTEXT_UPDATE' && (payload.uniqueID == this.config.uniqueID || !this.config.uniqueID)) {
-      Log.debug(`Received notification: ${notification} with payload.message: ${payload.message} from sender: ${sender}`)
+      Log.debug(`[MMM-CustomText] Received notification: ${notification} with payload.message: ${payload.message} from sender: ${sender}`)
       this.messageText = payload.message
       this.notification = true
       this.updateDom(this.config.animationSpeed)
