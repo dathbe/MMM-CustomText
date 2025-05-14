@@ -4,6 +4,10 @@ Notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.5](https://github.com/dathbe/MMM-CustomText/compare/1.0.4...v1.0.5) - 2025-05-XX
+
+- Change lint style
+
 ## [1.0.4](https://github.com/dathbe/MMM-CustomText/compare/1.0.3...v1.0.4) - 2025-05-06
 
 - Bump dev dependencies versions
