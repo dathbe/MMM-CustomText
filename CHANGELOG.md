@@ -4,23 +4,27 @@ Notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.6](https://github.com/dathbe/MMM-CustomText/compare/1.0.5...v1.0.6) - 2025-05-19
+
+- Update devDependencies
+
 ## [1.0.5](https://github.com/dathbe/MMM-CustomText/compare/1.0.4...v1.0.5) - 2025-05-14
 
-- Bump dev dependency
+- Update devDependencies
 - Change lint style
 
 ## [1.0.4](https://github.com/dathbe/MMM-CustomText/compare/1.0.3...v1.0.4) - 2025-05-06
 
-- Bump dev dependencies versions
+- Update devDependencies
 - Update logging
 
 ## [1.0.3](https://github.com/dathbe/MMM-CustomText/compare/1.0.2...v1.0.3) - 2025-04-24
 
-- Bump devDependencies versions
+- Update devDependencies
 
 ## [1.0.2](https://github.com/dathbe/MMM-CustomText/compare/1.0.1...v1.0.2) - 2025-04-09
 
-- Bump devDependencies versions
+- Update devDependencies
 
 ## [1.0.1](https://github.com/dathbe/MMM-CustomText/compare/1.0.0...v1.0.1) - 2025-04-02
 
