@@ -1,6 +1,7 @@
 {
   "name": "mmm-customtext",
   "version": "1.0.0",
+  "type": "commonjs",
   "description": "A MagicMirror² module to display a custom message on your mirror, updatable via notification.",
   "repository": {
     "type": "git",
@@ -25,9 +26,9 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@eslint/js": "^9.27.0",
-    "@stylistic/eslint-plugin": "^4.4.0",
-    "eslint": "^9.27.0",
+    "@eslint/js": "^9.28.0",
+    "@stylistic/eslint-plugin": "^4.4.1",
+    "eslint": "^9.28.0",
     "globals": "^16.2.0"
   }
 }
