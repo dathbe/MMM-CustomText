@@ -7,6 +7,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ## [1.0.8](https://github.com/dathbe/MMM-CustomText/compare/1.0.7...v1.0.8) - 2025-06-19
 
 - Update devDependencies
+- Add dependabot checks
+- replace `npm run` with `node --run`
 
 ## [1.0.7](https://github.com/dathbe/MMM-CustomText/compare/1.0.6...v1.0.7) - 2025-06-08
 
