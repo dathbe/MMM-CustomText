@@ -4,6 +4,11 @@ Notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.9](https://github.com/dathbe/MMM-CustomText/compare/1.0.8...v1.0.9) - 2025-06-XX
+
+- Update devDependencies
+- Update dependabot file
+
 ## [1.0.8](https://github.com/dathbe/MMM-CustomText/compare/1.0.7...v1.0.8) - 2025-06-19
 
 - Update devDependencies
