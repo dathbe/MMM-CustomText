@@ -8,6 +8,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 - Update devDependencies
 - Update dependabot file
+- Change dependabot schedule
 
 ## [1.0.8](https://github.com/dathbe/MMM-CustomText/compare/1.0.7...v1.0.8) - 2025-06-19
 
