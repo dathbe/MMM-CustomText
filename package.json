@@ -29,6 +29,6 @@
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.10.0",
     "eslint": "^9.39.2",
-    "globals": "^17.0.0"
+    "globals": "^17.4.0"
   }
 }
